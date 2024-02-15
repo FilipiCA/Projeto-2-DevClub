@@ -1,0 +1,122 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #17233D;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+button{
+    width: 124px;
+    height: 51px;
+    background-color: #4CB538;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+img{
+    margin-top: 163px;
+    margin-left: 120px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 100px;
+  
+}
+
+h1{
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 493px;
+    height: 99px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #17233D;
+}
+
+.link-main{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 900px){
+    .link-header{
+        display: none;
+    }
+
+    img{
+        position: absolute;
+        width: 312px;
+        height: 288px;
+        top: 350px;
+        margin-left: 45px;
+    }
+
+    section{
+        text-align: center;
+        margin: 80px 0 0 40px;
+    }
+
+    h1{
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;         
+    }
+
+    p{
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+
+    header{
+        margin-top: 20px;
+        margin-left: 305px;
+    }
+
+    button{
+        width: 65px;
+        height: 25px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+    }
+}
